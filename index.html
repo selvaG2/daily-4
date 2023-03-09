@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily tast 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- Nav bar goes here -->
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand">Navbar</a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <br>
+    <!-- Profile div -->
+    <div class="img">
+        <img src="./assets/dp.jpg" alt="">
+    </div>
+    <!-- First & last name div  -->
+    <div class="input-group w-50">
+        <span class="input-group-text">First and last name</span>
+        <input type="text" aria-label="First name" class="form-control" id="first" required />
+        <input type="text" aria-label="Last name" class="form-control" id="second" required />
+    </div>
+    <br>
+    <!-- Date of birth div -->
+    <div class="input-group w-25">
+        <span class="input-group-text">Date-of-birth</span>
+        <input type="date" aria-label="Date-of-birth" class="form-control" id="dob" required />
+    </div>
+    <br>
+    <!-- Gender div -->
+    <span class="input-group-text w-25">Gender</span>
+    <br>
+    <div style="padding-left: 50px;">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Male
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                Female
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+            <label class="form-check-label" for="flexRadioDefault3">
+                Others
+            </label>
+        </div>
+    </div>
+    <br>
+    <!-- Father div -->
+    <div class="input-group w-25">
+        <span class="input-group-text">Father name</span>
+        <input type="text" aria-label="First name" class="form-control" id="father" required />
+
+    </div>
+    <br>
+    <!-- Address div -->
+    <div class="form-group">
+        <span class="input-group-text w-50">Address</span>
+        <textarea class="form-control w-50" id="exampleFormControlTextarea1" rows="5" cols="50" required></textarea>
+    </div>
+    <br>
+    <!-- Phone number div -->
+    <div class="input-group w-25">
+        <span class="input-group-text">Phone number</span>
+        <input type="text" aria-label="First name" class="form-control" id="phonenumber" required />
+
+    </div>
+    <br>
+    <!-- Telephone number div -->
+    <div class="input-group w-25">
+        <span class="input-group-text">Telephone number</span>
+        <input type="text" aria-label="First name" class="form-control" id="telephone" required />
+
+    </div>
+    <br>
+    <!-- Email div -->
+    <div class="mb-3">
+        <span class="input-group-text w-50">Email address</span>
+        <input type="email" class="form-control w-50" id="inputEmail" placeholder="name@example.com" required />
+    </div>
+    <br>
+    <!-- College div -->
+    <div class="input-group w-25">
+        <span class="input-group-text">College name</span>
+        <input type="text" aria-label="First name" class="form-control" id="college" required />
+
+    </div>
+    <br>
+    <!-- Mark div -->
+    <div class="input-group w-25">
+        <span class="input-group-text">Mark Scored</span>
+        <input type="text" aria-label="First name" class="form-control" id="mark" required />
+
+    </div>
+    <br>
+    <!-- Personal interest check box -->
+    <div class="w-50">
+        <span class="input-group-text">Personal interest</span>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Games" id="flexCheckDefault" name="interests">
+            <label class="form-check-label" for="flexCheckDefault">
+                Games
+            </label>
+        </div>
+        <div class="form-check w">
+            <input class="form-check-input" type="checkbox" value="Reading books" id="flexCheckChecked" name="interests"
+                checked>
+            <label class="form-check-label" for="flexCheckChecked">
+                Reading books
+            </label>
+        </div>
+        <div class="form-check w">
+            <input class="form-check-input" type="checkbox" value="Programming" id="flexCheckDefault" name="interests">
+            <label class="form-check-label" for="flexCheckDefault">
+                Programming
+            </label>
+        </div>
+        <div class="form-check w">
+            <input class="form-check-input" type="checkbox" value="Meditation" id="flexCheckDefault" name="interests">
+            <label class="form-check-label" for="flexCheckDefault">
+                Meditation
+            </label>
+        </div>
+    </div>
+    
+    <!-- Button div -->
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button class="btn btn-primary me-md-2" type="button" onclick="Input()">Button</button>
+
+    </div>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
